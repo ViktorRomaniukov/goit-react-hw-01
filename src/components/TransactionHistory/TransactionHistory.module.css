@@ -1,0 +1,44 @@
+.transactionTable {
+    width: 100%;
+    border-collapse: collapse;
+    margin: 20px 0;
+}
+
+.transactionTable thead {
+    background-color: rgb(79, 76, 76);
+    color: white;
+}
+
+.transactionTable th {
+    padding: 10px;
+    border: 1px solid #070707;
+}
+
+.transactionTable td {
+    padding: 10px;
+    text-align: center;
+    border-bottom: 1px solid #2b2a2a;
+    color: black;
+    border: 1px solid #070707;
+}
+
+td {
+    min-width: 200px;
+    max-width: 200px;
+}
+
+td.type {
+    text-align: left;
+}
+
+td:first-child {
+    text-indent: 80px;
+}
+
+.type::first-letter {
+    text-transform: uppercase;
+}
+
+.transactionTable tbody tr:nth-child(even) {
+    background-color: #bbb5b5;
+}
