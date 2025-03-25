@@ -6,12 +6,3 @@
   padding: 20px;
   list-style: none;
 }
-
-ul {
-  display: flex;
-  flex-wrap: wrap;
-  gap: 20px;
-  justify-content: center;
-  padding: 20px;
-  list-style: none;
-}
